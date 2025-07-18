@@ -1,0 +1,13 @@
+@use '_dark' as dark;
+@use '_light' as light;
+
+
+:root {
+  --color-bg: #{light.$bg-light};
+  --color-text: #{light.$text-light};
+}
+
+[theme='dark'] {
+  --color-bg: #{dark.$bg-dark};
+  --color-text: #{dark.$text-dark};
+}

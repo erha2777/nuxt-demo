@@ -6,3 +6,10 @@
     </AppAlert>
   </div>
 </template>
+
+
+<style lang="scss" scoped>
+div {
+  background-color: $test-color;
+}
+</style>
