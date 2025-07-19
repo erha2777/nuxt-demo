@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
+  plugins: ['~/plugins/gsap.ts'],
   modules: ['@nuxt/scripts', '@nuxt/image'],
   css: [
     '~/assets/styles/normalize.css',
