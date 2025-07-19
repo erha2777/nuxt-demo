@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/scripts', '@nuxt/image'],
   css: [
     '~/assets/styles/normalize.css',
-    '~/assets/styles/common.scss'
+    '~/assets/styles/common.css'
   ],
   vite: {
     css: {
