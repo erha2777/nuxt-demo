@@ -26,8 +26,9 @@ const clickActive = (path: string) => {
 
 <style lang="scss" scoped>
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100vw;
     height: 60px;
     background-color: rgba(51, 51, 51,.9);
     color: #fff;
